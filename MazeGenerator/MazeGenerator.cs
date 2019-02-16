@@ -8,7 +8,7 @@ namespace MazeGenerator
 {
     public static class MazeGenerator
     {
-        public static List<Maze> GenerateMany(int size, int count, int overload)
+        public static List<Maze> GenerateMany(int size, int count, int overload = 1)
         {
             //The higher overload is the more different mazes will be generated
             //Bad thing: time complexity is increasing very fast
